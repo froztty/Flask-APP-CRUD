@@ -48,7 +48,7 @@ def delete(id:int):
         return f"ERROR:{e}"
     
 #edit
-@app.route("/edit/<int:id>", methods=["GET","POST"])
+@app.route()
 def edit(id:int):
     task = MyTask.query.get_or_404(id)
     if request.method == "POST":
@@ -59,7 +59,7 @@ def edit(id:int):
         except Exception as e:
             return f"ERROR:{e}"
     else:
-        return render_template('edit.html', task=task)
+        return "HOME"
 
 if __name__ in "__main__":
     with app.app_context():

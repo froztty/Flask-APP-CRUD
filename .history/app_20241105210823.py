@@ -59,7 +59,7 @@ def edit(id:int):
         except Exception as e:
             return f"ERROR:{e}"
     else:
-        return render_template('edit.html', task=task)
+        return "HOME"
 
 if __name__ in "__main__":
     with app.app_context():
