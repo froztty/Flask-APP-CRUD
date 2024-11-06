@@ -2,7 +2,7 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: wheat;
+  background-color: red;
 }
 
 .content {
@@ -59,4 +59,4 @@ body {
 }
 .content #btn_add:hover {
   background-color: #218838;
-}/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles_20241105213946.css.map */

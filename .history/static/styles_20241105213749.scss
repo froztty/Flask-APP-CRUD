@@ -67,9 +67,6 @@ body{
     #btn_add {
         background-color: $success-color;
         color: #fff;
-        cursor: pointer;
-        &:hover {
-            background-color: $success-hover-color;
-        }
+        cursor: pointer
     }
 }
