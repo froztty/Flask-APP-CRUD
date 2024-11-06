@@ -1,0 +1,36 @@
+# CRUD Flask Task App
+
+## 🚀 Features
+
+- Create task.
+- Read task.
+- Update task.
+- Delete task.
+- CRUD
+
+## 🛠️ Tech Stack
+
+- **Languages**: Python, HTML/CSS
+- **Frameworks/Libraries**: Flask, SQLAlchemy, SCSS
+
+## 📦 How to use
+
+1. **Install requirements**  
+   ```bash
+   pip install requirements.txt
+   ```
+
+1. **Activate virtual environment (Windows)**  
+   ```bash
+   .\env\Scripts\activate
+   ```
+
+1. **Run app**  
+   ```bash
+   py app.py
+   ```
+   
+1. **Open website**
+
+  
+
