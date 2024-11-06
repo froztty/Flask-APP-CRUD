@@ -46,6 +46,8 @@ def delete(id:int):
         return redirect("/")
     except Exception as e:
         return f"ERROR:{e}"
+    
+
 
 if __name__ in "__main__":
     with app.app_context():
